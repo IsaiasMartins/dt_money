@@ -1,4 +1,3 @@
-import Modal from 'react-modal';
 import logoImg from '../../assets/logo.svg';
 import { Container, Content } from './styles';
 
@@ -13,8 +12,7 @@ export function Header({ onOpenNewTransactionModal }: HeaderProps){
                 <img src={logoImg} alt="dt money" />
                 <button type="button" onClick={onOpenNewTransactionModal}>
                     Nova Transação
-                </button>
-                
+                </button>            
             </Content>
         </Container>
     )
